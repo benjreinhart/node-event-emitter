@@ -8,6 +8,16 @@
       "node": "*"
     }
 
+  , "keywords":
+    [
+        "browser"
+      , "event"
+      , "events"
+      , "eventemitter"
+      , "emitter"
+      , "node"
+    ]
+
   , "dependencies":
     {
     }
