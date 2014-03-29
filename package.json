@@ -17,6 +17,7 @@
         "chai": "~1.9"
       , "commonjs-everywhere": "~0.9"
       , "mocha": "~1.18"
+      , "sinon": "~1.9"
     }
 
   , "repository":
