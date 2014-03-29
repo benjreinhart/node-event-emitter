@@ -1,7 +1,7 @@
 {
     "name": "node-event-emitter"
   , "version": "0.0.1"
-  , "description": "Direct port of node's EventEmitter; no dependencies; browser + CommonJS"
+  , "description": "Direct port of node's EventEmitter with no dependencies. Available for CommonJS and browser environments."
   , "author": "benjreinhart"
   , "engines":
     {
