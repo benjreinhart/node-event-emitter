@@ -2,7 +2,7 @@
 
 Direct port of node's EventEmitter with no dependencies, available for CommonJS and browser environments.
 
-(Documentation)[http://nodejs.org/api/events.html]
+[Documentation](http://nodejs.org/api/events.html)
 
 ## Why
 
