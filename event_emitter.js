@@ -80,7 +80,7 @@
       if (util.isUndefined(handler))
         return false;
       if (util.isFunction(handler)) {
-        args = [].prototype.slice.call(arguments);
+        args = [].slice.call(arguments);
         args.shift();
         handler.apply(this, args);
       } else if (util.isObject(handler)) {
