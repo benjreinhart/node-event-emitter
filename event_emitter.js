@@ -80,23 +80,9 @@
       if (util.isUndefined(handler))
         return false;
       if (util.isFunction(handler)) {
-        switch (arguments.length) {
-        case 1:
-          handler.call(this);
-          break;
-        case 2:
-          handler.call(this, arguments[1]);
-          break;
-        case 3:
-          handler.call(this, arguments[1], arguments[2]);
-          break;
-        default:
-          len = arguments.length;
-          args = new Array(len - 1);
-          for (i = 1; i < len; i++)
-            args[i - 1] = arguments[i];
-          handler.apply(this, args);
-        }
+        args = [].prototype.slice.call(arguments);
+        args.shift();
+        handler.apply(this, args);
       } else if (util.isObject(handler)) {
         len = arguments.length;
         args = new Array(len - 1);
